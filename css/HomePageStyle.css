@@ -1,0 +1,160 @@
+body {
+    font-size: 16px;
+    background-color: #DCD0FF; /** lavender colour **/
+    font-family: 'Texturina', serif;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: lavenderblush;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img {
+    background: url("../Pictures/My logo.png") no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand, #nav-list {
+    padding-top: 45px;
+}
+
+.navbar-brand h1 {  /* web site name (Main Heading) */
+    font-family: 'Sansita Swashed', cursive;
+    color: darkslateblue;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow: 0.5px 1px 1px slateblue;
+    line-height: 0.85;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand > p > img {
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.navbar-brand p { /* my email address */
+    margin-top: 5px;
+    color: black;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+#nav-list {
+    margin-top: 15px;
+}
+#nav-list a {
+    text-align: center;
+    color: darkslateblue;
+}
+
+#nav-list a:hover {
+    background: lavender;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+#phone {
+    margin-top: 5px;
+}
+
+#phone a { /* phone number */
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div { /*** *call ***/
+    color: darkslateblue;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid darkslateblue;
+    background-color: #DCD0FF;
+}
+.navbar-header button.navbar-toggle:hover {
+    background-color: lavenderblush;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+/* END HEADER */
+
+/******************** Large Devices Only *********************/
+@media (min-width: 1200px) {
+
+}
+
+/******************** Medium Devices Only *********************/
+@media (min-width: 992px) and (max-width: 1199px){
+    /* HEADER */
+    #logo-img {
+        background: url("../Pictures/My logo.png") no-repeat;
+        background-size: cover;
+        width: 100px;
+        height: 100px;
+        margin: 3px 5px 3px 0;
+    }
+
+    .navbar-brand, #nav-list {
+        padding-top: 15px;
+    }
+
+    #nav-list a span {
+        font-size: 1.4em;
+    }
+    /* END HEADER */
+}
+
+/******************** Small Devices Only *********************/
+@media (min-width: 768px) and (max-width: 991px){
+    /* HEADER */
+    #nav-list a span {
+        font-size: 1em;
+    }
+    /* END HEADER */
+}
+
+/******************** Extra Small Devices Only *********************/
+@media (max-width: 767px) {
+    /* HEADER */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 100px;
+    }
+    .navbar-brand h1 { /* brand name */
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+    .navbar-brand p {/* email address */
+        text-transform: lowercase;
+        font-size: 0.6em;
+        margin-top: 2px;
+    }
+    .navbar-brand p img { /* email logo */
+        height: 20px;
+    }
+    .navbar-toggle {
+        margin-bottom: 15px;
+    }
+    /* END HEADER */
+}
