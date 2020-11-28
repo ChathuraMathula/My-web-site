@@ -265,3 +265,11 @@ body {
         font-weight: 600;
     } /****END Tiles ****/
 }
+/********************Super Extra Small Devices Only *********************/
+@media (max-width: 479px) {
+    #places-tile, #hotels-tile {
+        width: 70%;
+        margin: 0 auto 15px;
+        background-size: cover;
+    }
+}
