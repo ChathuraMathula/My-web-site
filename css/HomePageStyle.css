@@ -276,6 +276,7 @@ body {
     /**** Home page ****/
     /**** Tiles ****/
     #places-tile, #hotels-tile {
+        height: 170px;
         width: 280px;
         margin: 0 auto 15px;
         background-size: cover;
