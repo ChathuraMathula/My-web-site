@@ -1,4 +1,4 @@
-<!doctype html>
+ <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,15 +13,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap"
           rel="stylesheet">
 </head>
+
+<!--------Body of the Home Page------>
 <body>
+<!--------Header of the Home Page------>
 <header>
+    <!--------Navigator of the Home Page------>
     <nav id="header-nav" class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
+                <!--------Brand Logo------>
                 <a href="HomePage.html" class="pull-left visible-md visible-lg">
                     <div id="logo-img" alt="Logo image"></div>
                 </a>
+                <!--------END Brand Logo------>
 
+                <!--------Brand Name and email address------>
                 <div class="navbar-brand">
                     <a href="HomePage.html">
                         <h1>Chathura Mathula's<br>Static Web Site</h1>
@@ -31,7 +38,9 @@
                         <span>chathuramathula@gmail.com</span>
                     </p>
                 </div>
+                <!--------END Brand Name and email address------>
 
+                <!--------Menu Button (3 bar icon)------>
                 <button type="button" class="navbar-toggle collapsed bg-light"
                         data-toggle="collapse" data-target="#collapsible-nav"
                         aria-expanded="false">
@@ -40,9 +49,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <!--------END Menu Button (3 bar icon)------>
             </div>
 
+            <!--------Collapsible Navigation Bar------>
             <div class="collapse navbar-collapse" id="collapsible-nav">
+                <!--------Navigation Bar List------>
                 <ul id="nav-list" class="navbar-nav nav navbar-right">
                     <li>
                         <a class="nav-link" href="#"><span class="glyphicon glyphicon-sunglasses"></span>
@@ -62,20 +74,74 @@
                     </li>
                     <li id="phone" class="hidden-xs">
                         <a class="nav-link" href="tel:+94700000000">
-                            <span>+9470XXXXXXX</span>
+                            <span>+9470-0000000</span>
                         </a>
                         <div>*call</div>
                     </li>
-                </ul>
-            </div>
-
+                </ul> <!--------END Navigation Bar List------>
+            </div> <!--------END Collapsible Navigation Bar------>
         </div>
-    </nav>
-</header>
+    </nav> <!--------END Navigator of the Home Page------>
+</header> <!--------END Header of the Home Page------>
+
+<!-------- Call Button of the Home Page------>
+<div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:+94700000000">
+        <span class="glyphicon glyphicon-earphone"></span>
+        <span id="call-num">+9470-0000000</span>
+    </a>
+</div>
+<div id="xs-call" class="text-center visible-xs">*call</div>
+<!--------END Call Button of the Home Page------>
+
+<!--------Main Content of the Home Page------>
+<div id="main-content" class="container">
+    <!--------Jumbotron of the Home Page------>
+    <div class="jumbotron">
+        <img src="Pictures/Nuwara-Eliya/NUWARA-ELIYA-768.jpg"
+        alt="Picture of Nuwara Eliya" class="img-responsive visible-xs">
+    </div>
+    <!--------END Jumbotron of the Home Page------>
+
+    <!--------Home Tiles of the Home Page------>
+    <div id="home-tiles" class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <a href="#">
+                <div id="places-tile">
+                    <span>Places</span>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <a href="#">
+                <div id="hotels-tile">
+                    <span>Hotels</span>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <a href="https://goo.gl/maps/B4PeaHVRVr9He6Qd6" target="_blank">
+                <div id="map-tile">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63367.842097665!2d80.74584115642008!3d6.9513649079373465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae380434e1554c7%3A0x291608404c937d9c!2sNuwara%20Eliya!5e0!3m2!1sen!2slk!4v1606567437524!5m2!1sen!2slk"
+                            width=100% height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <span>Map</span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!--------END Home Tiles of the Home Page------>
+
+</div>
+<!--------End Main Content of the Home Page------>
+
+
+
+
 
 <!--jQuery (bootstrap JS plugins depend on it)-->
 <script src="js/jquery-3.5.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
-</body>
+
+</body><!--------END Body of the Home Page------>
 </html>
