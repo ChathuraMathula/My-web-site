@@ -267,9 +267,18 @@ body {
 }
 /********************Super Extra Small Devices Only *********************/
 @media (max-width: 479px) {
+    /**** Header ****/
+    .navbar-brand h1 {
+        padding-top: 5px;
+        font-size: 6vw;
+    }  /****END Header ****/
+
+    /**** Home page ****/
+    /**** Tiles ****/
     #places-tile, #hotels-tile {
-        width: 70%;
+        width: 280px;
         margin: 0 auto 15px;
         background-size: cover;
-    }
+    } /**** END Tiles ****/
+    /****END Home page ****/
 }
