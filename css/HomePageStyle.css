@@ -1,12 +1,12 @@
 body {
     font-size: 16px;
-    background-color: lightskyblue; /** lavender colour **/
+    background-color: #9966cc; /** lavender colour **/
     font-family: 'Texturina', serif;
 }
 
 /** HEADER **/
 #header-nav {
-    background-color: aliceblue;
+    background-color: lavenderblush;
     border-radius: 0;
     border: 0;
 }
@@ -25,7 +25,7 @@ body {
 
 .navbar-brand h1 {  /* web site name (Main Heading) */
     font-family: 'Sansita Swashed', cursive;
-    color: darkblue;
+    color: darkslateblue;
     font-size: 1.5em;
     text-transform: capitalize;
     font-weight: bold;
@@ -59,11 +59,11 @@ body {
 }
 #nav-list a {
     text-align: center;
-    color: darkblue;
+    color: darkslateblue;
 }
 
 #nav-list a:hover {
-    background: lightskyblue;
+    background: #b57edc;
 }
 
 #nav-list a span {
@@ -80,17 +80,17 @@ body {
 }
 
 #phone div { /*** *call ***/
-    color: darkblue;
+    color: darkslateblue;
     text-align: right;
     padding-right: 15px;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid darkblue;
-    background-color: lightskyblue;
+    border: 1px solid black;
+    background-color: #9966cc;
 }
 .navbar-header button.navbar-toggle:hover {
-    background-color: aliceblue;
+    background-color: lavenderblush;
 }
 
 .navbar-header button.navbar-toggle {
@@ -101,9 +101,9 @@ body {
 /**** Home Page****/
 /****Jumbotron ****/
 .container .jumbotron {
-    box-shadow: 0 0 40px aliceblue;
-    border: 2px solid darkblue;
-    background-color: aliceblue;
+    box-shadow: 0 0 40px lavenderblush;
+    border: 2px solid darkslateblue;
+    background-color: lavenderblush;
     background-size: cover;
 } /****End Jumbotron ****/
 
@@ -113,8 +113,8 @@ body {
     width: 100%;
     margin-bottom: 15px;
     position: relative;
-    border: 2px solid darkblue;
-    box-shadow: 0 0 20px aliceblue;
+    border: 2px solid darkslateblue;
+    box-shadow: 0 0 20px lavenderblush;
     overflow: hidden;
 
 }
@@ -122,11 +122,11 @@ body {
     box-shadow: 0 2px 5px 2px black;
 }
 #places-tile {
-    background: url("../Pictures/Tiles/places-tile.jpg") no-repeat center;
+    background: url("../Pictures/Tiles/tile-1-520.jpg") no-repeat center;
     background-size: cover;
 }
 #hotels-tile {
-    background: url("../Pictures/Tiles/hotels-tile.jpg") no-repeat center;
+    background: url("../Pictures/Tiles/tile-2-520.jpg") no-repeat center;
     background-size: cover;
 
 }
@@ -150,8 +150,10 @@ body {
 @media (min-width: 1200px) {
     /**** Jumbotron ****/
     .container .jumbotron {
-        background: url("../Pictures/Nuwara-Eliya/NUWARA-ELIYA-1200.jpg") no-repeat;
-        height: 642px;
+        background: url("../Pictures/Jumbotron/jumbotran.jpg") no-repeat;
+        height: 768px;
+        width: 1024px;
+        margin: 0 auto 15px;
     } /****END Jumbotron ****/
 }
 
@@ -176,8 +178,10 @@ body {
 
     /**** Jumbotron ****/
     .container .jumbotron {
-        background: url("../Pictures/Nuwara-Eliya/NUWARA-ELIYA-992.jpg") no-repeat;
-        height: 532px;
+        background: url("../Pictures/Jumbotron/jumbotran-992.jpg") no-repeat;
+        height: 480px;
+        width: 899px;
+        margin: 0 auto 15px;
     } /****END Jumbotron ****/
 
 }
@@ -191,7 +195,7 @@ body {
 
     /**** Jumbotron ****/
     .container .jumbotron {
-        background: url("../Pictures/Nuwara-Eliya/NUWARA-ELIYA-768.jpg") no-repeat;
+        background: url("../Pictures/Jumbotron/jumbotran-768.jpg") no-repeat;
         height: 400px;
     } /****END Jumbotron ****/
 }
@@ -234,14 +238,14 @@ body {
     }
     #call-btn a {
         border: 1px solid black;
-        background-color: aliceblue;
+        background-color: lavenderblush;
         text-align: center;
         color: black;
     }
     #call-btn a:hover, #call-btn a:focus {
         text-decoration: none;
-        background-color: azure;
-        color: darkblue;
+        background-color: mediumpurple;
+        color: black;
     }
     #xs-call {
         font-size: 0.7em;
